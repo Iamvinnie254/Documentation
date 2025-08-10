@@ -5,11 +5,11 @@
 - [📘 Git and GitHub Documentation](#-git-and-github-documentation)
   - [📌 Table of Contents](#-table-of-contents)
   - [1. What is Git?](#1-what-is-git)
-    - [✅ Key Features:](#-key-features)
+    - [✅ Key Features](#-key-features)
   - [2. What is GitHub?](#2-what-is-github)
   - [3. Setting Up Git](#3-setting-up-git)
-    - [🔧 Install Git:](#-install-git)
-    - [🛠️ Configure Git:](#️-configure-git)
+    - [🔧 Install Git](#-install-git)
+    - [🛠️ Configure Git](#️-configure-git)
   - [4. Initializing a Git Repository](#4-initializing-a-git-repository)
     - [Create a repository on Github](#create-a-repository-on-github)
   - [5. Git basics: Key commands](#5-git-basics-key-commands)
@@ -21,11 +21,11 @@
     - [Cons](#cons)
   - [7. Github Actions](#7-github-actions)
     - [🧩 What are GitHub Actions?](#-what-are-github-actions)
-      - [GitHub Actions is a CI/CD tool that lets you:](#github-actions-is-a-cicd-tool-that-lets-you)
-    - [📁 Components:](#-components)
+      - [GitHub Actions is a CI/CD tool that lets you](#github-actions-is-a-cicd-tool-that-lets-you)
+    - [📁 Components](#-components)
   - [8. Project Contributions Using GitHub](#8-project-contributions-using-github)
-    - [🙌 How to Contribute:](#-how-to-contribute)
-  - [✅ Good Practices:](#-good-practices)
+    - [🙌 How to Contribute](#-how-to-contribute)
+  - [✅ Good Practices](#-good-practices)
   - [9. Conclusion](#9-conclusion)
 
 ---
@@ -34,7 +34,7 @@
 
 **Git** is a free, open-source **distributed version control system** that allows multiple developers to work on the same codebase simultaneously without overwriting each other’s changes. Git helps track changes, manage branches, and merge code efficiently.
 
-### ✅ Key Features:
+### ✅ Key Features
 
 - Distributed architecture
 - Version tracking
@@ -47,7 +47,7 @@
 
 **GitHub** is a cloud-based platform built on top of Git that offers:
 
-- A **web-based interface** to manage Git repositories- 
+- A **web-based interface** to manage Git repositories
 - **Collaboration tools** like pull requests, issues, and projects
 - **CI/CD pipelines** through GitHub Actions
 
@@ -55,11 +55,11 @@
 
 ## 3. Setting Up Git
 
-### 🔧 Install Git:
+### 🔧 Install Git
 
 - **Windows/macOS/Linux**: [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
-### 🛠️ Configure Git:
+### 🛠️ Configure Git
 
 ```bash
 git config --global user.name "Your Name"
@@ -164,7 +164,7 @@ git push origin main/master/dev -> depending on which branch you are working on
 
 ### 🧩 What are GitHub Actions?
 
-#### GitHub Actions is a CI/CD tool that lets you:
+#### GitHub Actions is a CI/CD tool that lets you
 
 - Automate testing
 
@@ -174,7 +174,7 @@ git push origin main/master/dev -> depending on which branch you are working on
 
 - Manage issues and PRs
 
-### 📁 Components:
+### 📁 Components
 
 - Workflows: Automation defined in YAML files
 
@@ -186,17 +186,17 @@ git push origin main/master/dev -> depending on which branch you are working on
 
 ## 8. Project Contributions Using GitHub
 
-### 🙌 How to Contribute:
+### 🙌 How to Contribute
 
-1. Fork the project
+- Fork the project
 
-2. Clone your fork:
+- Clone your fork:
 
 ```bash
 git clone https://github.com/your-username/project-name.git
 ```
 
-3. Create a new branch
+- Create a new branch:
 
 ```bash
 
@@ -204,7 +204,7 @@ git checkout -b feature-branch
 
 ```
 
-4. Make changes, commit and push:
+1. Make changes, commit and push:
 
 ```bash
 
@@ -213,11 +213,11 @@ git commit -m "Add new feature"
 git push origin feature-branch
 ```
 
-5. Create a pull request from Github interface
+- Create a pull request from Github interface
 
-6. Wait for review and feedback
+- Wait for review and feedback
 
-## ✅ Good Practices:
+## ✅ Good Practices
 
 - Write clear commit messages
 
@@ -233,4 +233,4 @@ git push origin feature-branch
 
 Git and GitHub are essential tools for modern software development. They offer robust version control, team collaboration, and automated workflows through GitHub Actions.
 
-Whether you're working solo or on a team, understanding and utilizing these tools effectively will significantly boost productivity and code quality.
+Whether you're working solo or on a team, understanding and utilizing these tools effectively will significantly boost productivity and code quality
